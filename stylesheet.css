@@ -1076,6 +1076,7 @@ audio {
 }
 
 .balloons {
+	margin: center;
 	position: fixed;
 	bottom: -200px;
 	opacity: 0.6;
@@ -1108,12 +1109,7 @@ audio {
 #b5,#b55{
 	background-image: url('b5.png');
 }
-#b6,#b66{
-	background-image: url('b6.png');
-}
-#b7,#b77{
-	background-image: url('b7.png');
-}
+
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
